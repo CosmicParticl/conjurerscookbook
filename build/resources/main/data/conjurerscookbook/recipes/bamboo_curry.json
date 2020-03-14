@@ -1,0 +1,25 @@
+{
+"type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "#N#",
+        " B "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bamboo"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "N": {
+            "item": "minecraft:nether_wart"
+        },
+        "B": {
+            "item": "minecraft:bowl"
+        }
+    },
+  "result": {
+    "item": "conjurerscookbook:bamboo_curry"
+  }
+}

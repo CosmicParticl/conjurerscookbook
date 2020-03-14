@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#N#",
+    "ggg"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cookie"
+    },
+    "N": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item":"conjurerscookbook:cookie_tin"
+  }
+}

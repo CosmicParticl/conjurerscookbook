@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+issueTrackerURL="https://github.com/"
+
+[[mods]]
+    modId="conjurerscookbook"
+    version="${file.jarVersion}"
+    displayName="Conjurer's Cookbook"
+    displayURL="https://github.com/"
+    updateJSONURL="https://github.com/"
+    credits="CosmicParticl"
+    authors="CosmicParticl"
+    description='''Magical food for your enjoyment!'''
+
+[[dependencies.conjurerscookbook]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.conjurerscookbook]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"

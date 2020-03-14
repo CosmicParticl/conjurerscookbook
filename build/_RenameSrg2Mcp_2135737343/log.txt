@@ -1,0 +1,11 @@
+Args: "--task", "SRG_TO_MCP", "--input", "C:\Users\SFU\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.14.4\6.0.0.13\92ef320768aaa76b49a332553f09ba6e4595a3c2\jei-1.14.4-6.0.0.13.jar", "--output", "C:\Users\SFU\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.14.4\6.0.0.13_mapped_snapshot_20190719-1.14.3\jei-1.14.4-6.0.0.13_mapped_snapshot_20190719-1.14.3.jar", "--mcp", "C:\Users\SFU\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20190719-1.14.3\mcp_snapshot-20190719-1.14.3.zip"
+Classpath: C:\Users\SFU\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.1.7\installertools-1.1.7-fatjar.jar
+WorkDir: C:\Users\SFU\Documents\GitHub\conjurerscookbook\build\_RenameSrg2Mcp_2135737343
+Main: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\SFU\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.14.4\6.0.0.13\92ef320768aaa76b49a332553f09ba6e4595a3c2\jei-1.14.4-6.0.0.13.jar
+Output: C:\Users\SFU\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.14.4\6.0.0.13_mapped_snapshot_20190719-1.14.3\jei-1.14.4-6.0.0.13_mapped_snapshot_20190719-1.14.3.jar
+MCP:    C:\Users\SFU\.gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20190719-1.14.3\mcp_snapshot-20190719-1.14.3.zip
+Loading MCP Data
+Process complete

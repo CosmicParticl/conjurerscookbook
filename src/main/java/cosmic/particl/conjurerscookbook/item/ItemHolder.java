@@ -26,4 +26,7 @@ public class ItemHolder {
 
     @ObjectHolder("mandrake_root")
     public static final Item mandrake_root = null;
+
+    @ObjectHolder("mandrake_seeds")
+    public static final Item mandrake_seeds = null;
 }

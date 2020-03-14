@@ -1,0 +1,14 @@
+{
+  "language.name": "English",
+  "language.region": "United States",
+  "language.code": "en_us",
+
+  "itemGroup.conjurerscookbook": "Conjurer's Cookbook",
+
+  "item.conjurerscookbook.bamboo_curry": "Sweet Bamboo Curry",
+  "item.conjurerscookbook.berry_cream": "Tasty Berry Cream",
+  "item.conjurerscookbook.cake": "Enchanted Chocolate Cake",
+  "item.conjurerscookbook.cookie_tin": "Magic Cookie Tin",
+  "item.conjurerscookbook.chorus": "Chorus Cupcake",
+  "item.conjurerscookbook.mandrake_root": "Mandrake Root"
+}
