@@ -1,6 +1,7 @@
 package cosmic.particl.conjurerscookbook.registries;
 
 import com.google.common.base.Preconditions;
+import cosmic.particl.conjurerscookbook.block.BlockHolder;
 import cosmic.particl.conjurerscookbook.block.Mandrakecrop;
 import cosmic.particl.conjurerscookbook.conjurerscookbook;
 import cosmic.particl.conjurerscookbook.item.Foods;
@@ -19,13 +20,16 @@ public class ItemRegistry {
 
         @SubscribeEvent
         public static void RegisterItems(final RegistryEvent.Register<Item> event) {
-            final Item[] items = {
+            final Item[] items = new Item[]{
                     new SoupItem(new Item.Properties().group(conjurerscookbook.GROUP).maxStackSize(1).food(Foods.berry_cream).containerItem(Items.BOWL).rarity(Rarity.COMMON)).setRegistryName(conjurerscookbook.location("berry_cream")),
                     new SoupItem(new Item.Properties().group(conjurerscookbook.GROUP).maxStackSize(1).food(Foods.bamboo_curry).containerItem(Items.BOWL).rarity(Rarity.COMMON)).setRegistryName(conjurerscookbook.location("bamboo_curry")),
                     new Item((new Item.Properties()).group(conjurerscookbook.GROUP).maxStackSize(1).food(Foods.cookie_tin).rarity(Rarity.RARE)).setRegistryName(conjurerscookbook.location("cookie_tin")),
                     new Item((new Item.Properties()).group(conjurerscookbook.GROUP).maxStackSize(1).food(Foods.cake).rarity(Rarity.RARE)).setRegistryName(conjurerscookbook.location("cake")),
                     new Item((new Item.Properties()).group(conjurerscookbook.GROUP).maxStackSize(64).food(Foods.chorus).rarity(Rarity.COMMON)).setRegistryName(conjurerscookbook.location("chorus")),
-                    new Item((new Item.Properties()).group(conjurerscookbook.GROUP).maxStackSize(64).food(Foods.mandrake_root).rarity(Rarity.COMMON)).setRegistryName(conjurerscookbook.location("mandrake_root"))
+                    new Item((new Item.Properties()).group(conjurerscookbook.GROUP).maxStackSize(64).food(Foods.mandrake_root).rarity(Rarity.COMMON)).setRegistryName(conjurerscookbook.location("mandrake_root")),
+                    //new Item((new Item.Properties()).group(conjurerscookbook.GROUP).maxStackSize(64).rarity(Rarity.COMMON)).setRegistryName(conjurerscookbook.location("mandrake_seeds")),
+                    //new BlockItem(BlockHolder.MANDRAKE_CROP, (new Item.Properties().group(conjurerscookbook.GROUP).maxStackSize(64).rarity(Rarity.COMMON))).setRegistryName("mandrake_crop_item"),
+                    new BlockItem(BlockHolder.MANDRAKE_CROP, (new Item.Properties().group(conjurerscookbook.GROUP).maxStackSize(64).rarity(Rarity.COMMON))).setRegistryName("mandrake_seeds"),
             };
 
             for (final Item item: items) {
