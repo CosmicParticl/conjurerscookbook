@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#A#",
+    "ABA",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_wart"
+    },
+    "A": {
+      "item": "minecraft:allium"
+    },
+    "B": {
+      "item": "minecraft:beetroot_seeds"
+    }
+  },
+  "result": {
+    "item": "conjurerscookbook:mandrake_seeds",
+    "count": 1
+  }
+}

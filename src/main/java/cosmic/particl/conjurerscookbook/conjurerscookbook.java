@@ -19,7 +19,7 @@ import java.util.Optional;
 @Mod(conjurerscookbook.MODID)
 public class conjurerscookbook {
     public static final String MODID = "conjurerscookbook";
-    public static final String VERSION = "0.0.2";
+    public static final String VERSION = "0.0.3";
 
     public static IProxy PROXY = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
 
